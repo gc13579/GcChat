@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="欢迎注册"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/enrollAccount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape2"
+        android:hint="请输入注册帐号(4~10位数字和英文)" />
+
+    <EditText
+        android:id="@+id/enrollPwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape2"
+        android:hint="请输入注册密码(数字和英文)"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/sureEnrollPwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape2"
+        android:hint="请再次输入注册密码(数字和英文)"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/petName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape2"
+        android:hint="请输入昵称(1~10位数字、字母、中文)" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/enroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape1"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:text="返回" />
+    </LinearLayout>
+
+</LinearLayout>
